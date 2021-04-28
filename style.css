@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600&display=swap');
+
+
+
+body {
+
+    width: 320px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    height: 100vh;
+    background-color: rgb(240, 230, 230);
+
+}
+
+
+header {
+
+    
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 70px;
+    
+}
+
+.header-title {
+    
+    padding-top: 23px;
+    margin: auto;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.sign-up {
+
+    border-bottom: 4px solid black;
+    
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 30px;
+    
+
+}
+
+.sign-up-para {
+
+    
+    font-size: .9rem;
+
+}
+
+form {
+
+    margin-top: 2px;
+    border-top: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 100px;
+   
+    
+    
+    
+}
+
+fieldset {
+    
+    border: none;
+    text-align: left;
+    
+
+}
+
+.contact-box {
+
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+    
+    
+}
+
+.contact-info {
+
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+
+input {
+
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    background-color: lightgray;
+}
+
+input:focus {
+    background-color: rgb(245, 245, 186);
+  }
+
+select {
+
+    border: none;
+    background-color: lightgray;
+    border-radius: 10px;
+    height: 35px;
+}
+
+select:focus {
+    background-color: rgb(245, 245, 186);
+  }
+
+.form-input {
+
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+   
+   
+}
+
+#zip_code {
+
+    width: 50%;
+}
+
+.news-choices {
+
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-weight: 300;
+    font-size: 1.1rem;
+    
+}
+
+.news-letter {
+
+    font-weight: bold;
+}
+
+.news-choices input {
+
+    height: auto;
+}
+
+#textarea {
+
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: none;
+
+}
+
+#textarea:focus {
+
+    background-color:rgb(245, 245, 186);
+
+  }
+
+button {
+
+    margin-top: 20px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #4ebbb5;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+footer {
+
+    background-color: black;
+    width: 100%;
+    
+    height: 70px;
+}
+
+.copyright {
+
+    text-align: center;
+}
+
+/* Media query 768px for tablets */
+
+@media only screen and (min-width: 768px) {
+
+    body {
+      
+      width: 768px;
+
+    }
+
+    .flex-box1{
+
+        display: inline-flex;
+        width: 100%;
+        margin-bottom: 10px;
+    
+    }
+
+    .flex-box2 {
+
+        display: inline-flex;
+        width: 100%;
+        margin-bottom: 10px;
+        
+    }
+
+    .flex-box3 {
+
+        display: inline-flex;
+        width: 100%;
+        margin-bottom: 10px;
+        
+    }
+
+    .flex-box4 {
+
+        display: inline-flex;
+        width: 100%;
+        margin-bottom: 10px;
+        
+    }
+
+    .flex-box5 {
+
+        display: inline-flex;
+        width: 100%;
+        margin-bottom: 10px;
+        
+    }
+
+    .flex-box6 {
+
+        display: inline-flex;
+        width: 100%;
+        margin-bottom: 10px;
+        
+    }
+
+    .flex-box7 {
+
+        display: inline-flex;
+        width: auto;
+        margin-bottom: 10px;
+        
+        
+    }
+
+    [for|="zip_code"]{
+
+        padding-right: 95px;
+    }
+
+    input#zip_code {
+
+       width: auto;
+        
+        
+    }
+
+    label.form-input {
+        width: 30%;
+        text-align: left;
+        margin: auto;
+    }
+
+    input.form-input{
+
+        width: 100%;
+        margin: auto;
+    }
+
+  
+  
+  }
+
+  /* Media query 1024px for desktops */
+
+@media only screen and (min-width: 1024px) {
+
+    body {
+      
+      width: 1024px;
+
+    }
+
+    [for|="zip_code"]{
+
+        width: auto;
+        padding-right: 150px;
+    }
+
+    input#zip_code {
+
+       width: auto;
+       
+        
+        
+    }
+} 
+
